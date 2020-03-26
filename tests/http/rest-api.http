@@ -1,0 +1,18 @@
+POST http://algoteque.test/api.php
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "distances": [
+        {
+            "length": 3,
+            "unit": "Yards"
+        },
+        {
+            "length": 5,
+            "unit": "Meters"
+        }
+    ],
+    "response_unit": "Meters"
+}
